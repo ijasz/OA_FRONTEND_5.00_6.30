@@ -1,0 +1,23 @@
+/* Descendant Selector */
+
+/* main p {
+  color: red;
+} */
+
+/* Child Selector */
+
+/* main > p {
+  color: red;
+} */
+
+/* Adjacent Sibling Selector */
+
+/* main + p {
+  color: red;
+} */
+
+/* General Sibling Selector */
+
+/* main ~ p {
+  color: red;
+} */
