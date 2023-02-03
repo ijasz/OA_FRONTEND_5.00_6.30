@@ -1,0 +1,87 @@
+body {
+  min-height: calc(100vh - 16px);
+}
+
+.relative {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(97, 181, 255);
+}
+
+.absolute {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  transition: all 1s;
+}
+
+.absolute:hover {
+  transform: rotate(360deg);
+}
+
+.absolute:nth-child(1) {
+  left: 0%;
+  top: 0%;
+  translate: -50% -50%;
+  background-color: aqua;
+}
+
+.absolute:nth-child(2) {
+  right: 0%;
+  top: 0%;
+  translate: 50% -50%;
+  background-color: rgb(0, 255, 4);
+}
+
+.absolute:nth-child(3) {
+  left: 0%;
+  bottom: 0%;
+  translate: -50% 50%;
+  background-color: rgb(30, 0, 255);
+}
+
+.absolute:nth-child(4) {
+  right: 0%;
+  bottom: 0%;
+  translate: 50% 50%;
+  background-color: rgb(255, 174, 0);
+}
+
+.absolute:nth-child(5) {
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  background-color: rgb(255, 0, 247);
+}
+
+.absolute:nth-child(6) {
+  bottom: 0%;
+  right: 0%;
+  translate: 100% 100%;
+  background-color: rgb(255, 0, 8);
+}
+
+.absolute:nth-child(7) {
+  bottom: 0%;
+  left: 0%;
+  translate: -100% 100%;
+  background-color: rgb(229, 255, 0);
+}
+
+.absolute:nth-child(8) {
+  top: 0%;
+  left: 0%;
+  translate: -100% -100%;
+  background-color: rgb(247, 0, 255);
+}
+
+.absolute:nth-child(9) {
+  top: 0%;
+  right: 0%;
+  translate: 100% -100%;
+  background-color: rgb(255, 140, 0);
+}
