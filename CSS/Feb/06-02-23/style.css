@@ -1,0 +1,20 @@
+.float-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  background-color: aqua;
+}
+
+.float-btn:active {
+  scale: 0.8;
+}
+
+nav {
+  height: 100px;
+  background-color: aquamarine;
+  position: sticky;
+  top: 0px;
+}
