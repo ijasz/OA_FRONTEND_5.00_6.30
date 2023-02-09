@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.container {
+    width: 95%;
+    max-width: 1400px;
+    margin-inline: auto;
+}
+
+.mx-1 {
+    margin-inline: 0.7rem;
+}
+
+.mx-2 {
+    margin-inline: 1rem;
+}
+
+.mx-3 {
+    margin-inline: 1.2rem;
+}
+
+.mx-4 {
+    margin-inline: 1.4rem;
+}
+
+.mx-5 {
+    margin-inline: 1.6rem;
+}
+
+.mx-6 {
+    margin-inline: 1.8rem;
+}
+
+.my-1 {
+    margin-block: 1rem;
+}
+
+.my-2 {
+    margin-block: 2rem;
+}
+
+.my-3 {
+    margin-block: 2rem;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.aligns-items-center {
+    align-items: center;
+}
+
+
+.f1 {
+    font-size: 1rem;
+}
+
+.f2 {
+    font-size: 1.2rem;
+}
+
+.f3 {
+    font-size: 1.4rem;
+}
+
+.f4 {
+    font-size: 1.6rem;
+}
+
+.f5 {
+    font-size: 1.8rem;
+}
+
+.f6 {
+    font-size: 2rem;
+}
+
+/* Design --- */
+
+nav {
+    height: 5.6rem;
+    background-color: rgba(128, 128, 128, 0.121);
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+}
