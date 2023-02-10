@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.container {
+    width: 95%;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.mx-1 {
+    margin-inline: 0.7rem;
+}
+
+.mx-2 {
+    margin-inline: 1rem;
+}
+
+.mx-3 {
+    margin-inline: 1.2rem;
+}
+
+.mx-4 {
+    margin-inline: 1.4rem;
+}
+
+.mx-5 {
+    margin-inline: 1.6rem;
+}
+
+.mx-6 {
+    margin-inline: 1.8rem;
+}
+
+/* --------- */
+
+.my-1 {
+    margin-block: 0.7rem;
+}
+
+.my-2 {
+    margin-block: 1rem;
+}
+
+.my-3 {
+    margin-block: 1.2rem;
+}
+
+.my-4 {
+    margin-block: 1.4rem;
+}
+
+.my-5 {
+    margin-block: 1.6rem;
+}
+
+.my-6 {
+    margin-block: 1.8rem;
+}
+
+.my-7 {
+    margin-block: 2rem;
+}
+
+/* -- */
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 1.2rem;
+}
+
+.p-3 {
+    padding: 1.4rem;
+}
+
+.p-4 {
+    padding: 1.6rem;
+}
+
+.p-5 {
+    padding: 1.8rem;
+}
+
+.p-6 {
+    padding: 2rem;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+
+.f1 {
+    font-size: 1rem;
+}
+
+.f2 {
+    font-size: 1.2rem;
+}
+
+.f3 {
+    font-size: 1.4rem;
+}
+
+.f4 {
+    font-size: 1.6rem;
+}
+
+.f5 {
+    font-size: 1.8rem;
+}
+
+.f6 {
+    font-size: 2rem;
+}
+
+/* design-- */
+
+.wrapper {
+    gap: 20px;
+}
+
+.card {
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.154);
+    max-width: 280px;
+}
+
+.tag {
+    padding-block: 0.2rem;
+    padding-inline: 0.5rem;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    background-color: rgb(0, 115, 255);
+    border-radius: 2rem;
+}
+
+.card .profile {
+    width: 100%;
+}
+
+.card .avatar {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}

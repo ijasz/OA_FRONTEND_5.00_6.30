@@ -102,3 +102,19 @@ nav {
     align-items: center;
     font-size: 1.6rem;
 }
+
+
+
+.d-view {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .menu-mob {
+        display: none;
+    }
+
+    .d-view {
+        display: block;
+    }
+}
