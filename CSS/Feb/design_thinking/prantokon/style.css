@@ -1,372 +1,424 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-end {
-    text-align: end;
+  text-align: end;
 }
 
 .container {
-    width: 95%;
-    max-width: 1000px;
-    margin-inline: auto;
+  width: 95%;
+  max-width: 1000px;
+  margin-inline: auto;
 }
 
 .mx-1 {
-    margin-inline: 0.7rem;
+  margin-inline: 0.7rem;
 }
 
 .mx-2 {
-    margin-inline: 1rem;
+  margin-inline: 1rem;
 }
 
 .mx-3 {
-    margin-inline: 1.2rem;
+  margin-inline: 1.2rem;
 }
 
 .mx-4 {
-    margin-inline: 1.4rem;
+  margin-inline: 1.4rem;
 }
 
 .mx-5 {
-    margin-inline: 1.6rem;
+  margin-inline: 1.6rem;
 }
 
 .mx-6 {
-    margin-inline: 1.8rem;
+  margin-inline: 1.8rem;
 }
 
 /* --------- */
 
 .my-1 {
-    margin-block: 0.7rem;
+  margin-block: 0.7rem;
 }
 
 .my-2 {
-    margin-block: 1rem;
+  margin-block: 1rem;
 }
 
 .my-3 {
-    margin-block: 1.2rem;
+  margin-block: 1.2rem;
 }
 
 .my-4 {
-    margin-block: 1.4rem;
+  margin-block: 1.4rem;
 }
 
 .my-5 {
-    margin-block: 1.6rem;
+  margin-block: 1.6rem;
 }
 
 .my-6 {
-    margin-block: 1.8rem;
+  margin-block: 1.8rem;
 }
 
 .my-7 {
-    margin-block: 2rem;
+  margin-block: 2rem;
 }
 
 .my-8 {
-    margin-block: 3rem;
+  margin-block: 3rem;
 }
 
 .my-9 {
-    margin-block: 4rem;
+  margin-block: 4rem;
 }
 
 .my-10 {
-    margin-block: 5rem;
+  margin-block: 5rem;
 }
-
 
 /* -- */
 
 .p-1 {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .p-2 {
-    padding: 1.2rem;
+  padding: 1.2rem;
 }
 
 .p-3 {
-    padding: 1.4rem;
+  padding: 1.4rem;
 }
 
 .p-4 {
-    padding: 1.6rem;
+  padding: 1.6rem;
 }
 
 .p-5 {
-    padding: 1.8rem;
+  padding: 1.8rem;
 }
 
 .p-6 {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .flex-row {
-    display: flex;
+  display: flex;
 }
 
 .flex-col {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .justify-content-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-content-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
-
-
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .f1 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .f2 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .f3 {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .f4 {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .f5 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .f6 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .f7 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .f8 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .f9 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .f10 {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 .f11 {
-    font-size: 6rem;
+  font-size: 6rem;
 }
 
 .f12 {
-    font-size: 8rem;
+  font-size: 8rem;
 }
 
 .f13 {
-    font-size: 10rem;
+  font-size: 10rem;
 }
 
 .gap-1 {
-    gap: 3rem;
+  gap: 3rem;
 }
 
 .gap-2 {
-    gap: 4rem;
+  gap: 4rem;
 }
 
 .gap-3 {
-    gap: 5rem;
+  gap: 5rem;
 }
 
 .gap-4 {
-    gap: 6rem;
+  gap: 6rem;
 }
 
 .gap-5 {
-    gap: 7rem;
+  gap: 7rem;
 }
 
 .gap-6 {
-    gap: 8rem;
+  gap: 8rem;
 }
 
 .gap-7 {
-    gap: 9rem;
+  gap: 9rem;
 }
 
 .gap-8 {
-    gap: 10rem;
+  gap: 10rem;
 }
 
-
-
-
 /* design starts */
-
 
 /* body {
 
 } */
 
-
 nav {
-    position: fixed;
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    /* background-image:   linear-gradient(to bottom, rgba(0, 12, 80, 0.52), rgba(24, 5, 170, 0.73)); */
+  position: fixed;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  /* background-image:   linear-gradient(to bottom, rgba(0, 12, 80, 0.52), rgba(24, 5, 170, 0.73)); */
 }
 
 .navbar {
-    color: white;
+  color: white;
 }
 
 .download-btn {
-    height: 3rem;
-    width: 8rem;
-    border: 1px solid white;
-    border-radius: 1rem;
+  height: 3rem;
+  width: 8rem;
+  border: 1px solid white;
+  border-radius: 1rem;
 }
 
 .cover-image {
-    min-height: 50rem;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image:
-        linear-gradient(to bottom, rgba(0, 12, 80, 0.52), rgba(24, 5, 170, 0.73)),
-        url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/hero-area.jpg.webp");
-    color: white;
-    align-items: flex-end;
-
+  min-height: 50rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 12, 80, 0.52),
+      rgba(24, 5, 170, 0.73)
+    ),
+    url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/hero-area.jpg.webp");
+  color: white;
+  align-items: flex-end;
 }
 
 .cover-image article {
-    margin-block-end: 6rem;
-    max-width: 48rem;
+  margin-block-end: 6rem;
+  max-width: 48rem;
 }
 
 .cover-image img {
-    max-width: 37rem;
+  max-width: 37rem;
 }
 
-
-
-.cover-image-btns>.btn {
-    padding-inline: 2rem;
-    padding-block: 0.5rem;
-    border-radius: 1rem;
-    margin-block: 1rem;
-    font-weight: 600;
-    border: 2px solid rgba(255, 255, 255, 0.562);
+.cover-image-btns > .btn {
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+  border-radius: 1rem;
+  margin-block: 1rem;
+  font-weight: 600;
+  border: 2px solid rgba(255, 255, 255, 0.562);
 }
-
 
 /* content1 ================ */
 
 /* .content1 {} */
 
 .content1 .subtitle {
-    max-width: 400px;
-    margin: auto;
+  max-width: 400px;
+  margin: auto;
 }
 
 .content1 .card-wrapper .card {
-    max-width: 270px;
-    min-height: 200px;
-    border: 1px solid rgba(0, 0, 0, 0.182);
+  max-width: 270px;
+  min-height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.182);
 }
-
 
 /* content1 ================ */
 
-
 /* content2 ================ */
-
 
 .content2 {
-    background-image:
-        linear-gradient(to bottom, rgba(0, 12, 80, 0.52), rgba(24, 5, 170, 0.73)),
-        url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/feature-bg.jpg.webp");
-    background-size: cover;
-    color: white;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 12, 80, 0.52),
+      rgba(24, 5, 170, 0.73)
+    ),
+    url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/feature-bg.jpg.webp");
+  background-size: cover;
+  color: white;
 }
-
 
 .content2 .flex-wrapper {
-    padding-block: 4rem;
+  padding-block: 4rem;
 }
-
 
 /* content2 ================ */
 
-
-
 /* content3 ================ */
-
 
 .content3 .readmore-btn {
-    padding-block: 1rem;
-    padding: inline 1.5rem;
-    background-color: blue;
-    border-radius: 10px;
-    max-width: 100px;
-    color: white;
+  padding-block: 1rem;
+  padding: inline 1.5rem;
+  background-color: blue;
+  border-radius: 10px;
+  max-width: 100px;
+  color: white;
 }
 
 /* content3 ================ */
 
-
-
 /* content4 ================ */
-.content4 {
-    background-image:
-        linear-gradient(to bottom, rgba(0, 12, 80, 0.52), rgba(24, 5, 170, 0.301)),
-        url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
-    background-size: cover;
-    color: white;
-    min-height: 30rem;
 
+.content4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 12, 80, 0.52),
+      rgba(24, 5, 170, 0.301)
+    ),
+    url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
+  background-size: cover;
+  color: white;
+  min-height: 30rem;
 }
 
-
-
 /* content4 ================ */
+/* content1 ================ */
+
+/* .content6 {} */
+
+.content6 .subtitle {
+  max-width: 400px;
+  margin: auto;
+}
+
+.content6 .card-wrapper .card {
+  max-width: 270px;
+  min-height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.182);
+}
+.content6 .ordernow-btn {
+    padding-block: 1rem;
+    padding-inline :3rem;
+    background-color: white;
+    border-radius: 20px;
+    border:1px solid black;
+    max-width: 180px;
+    color: black;
+  }
+
+/* content6 ================ */
+/* content9 ================ */
+.content9 .subtitle {
+  max-width: 400px;
+  margin: auto;
+}
+
+.content9 .card-wrapper .card {
+  max-width: 270px;
+  border: 1px solid rgba(0, 0, 0, 0.182);
+}
+/* content9 ================ */
+
+/* content11 ================ */
+.content11 .subtitle {
+  max-width: 450px;
+  margin: auto;
+}
+
+.content11 .card-wrapper .card {
+  max-width: 270px;
+  border: 1px solid rgba(0, 0, 0, 0.182);
+}
+/* content11 ================ */
+
+/* content10 ================ */
+
+.content10 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 12, 80, 0.52),
+      rgba(24, 5, 170, 0.301)
+    ),
+    url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
+  background-size: cover;
+  color: white;
+  min-height: 30rem;
+}
+
+.content10 > * {
+    max-width: 50rem;
+}
+
+/* content10 ================ */
