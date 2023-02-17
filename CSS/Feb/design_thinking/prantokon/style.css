@@ -362,9 +362,8 @@ nav {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to bottom,
-            rgba(0, 12, 80, 0.52),
-            rgba(24, 5, 170, 0.73)),
+
+    background-image: linear-gradient(to right, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%),
         url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/hero-area.jpg.webp");
     color: white;
     align-items: flex-end;
@@ -404,11 +403,10 @@ nav {
 /* content2 ================ */
 
 .content2 {
-    background-image: linear-gradient(to bottom,
-            rgba(0, 12, 80, 0.52),
-            rgba(24, 5, 170, 0.73)),
+    background-image: linear-gradient(to right, #000529 1%, #002055 24%, #005eb585 67%, #0074d9de 100%),
         url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/feature-bg.jpg.webp");
     background-size: cover;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -434,15 +432,17 @@ nav {
 /* content4 ================ */
 
 .content4 {
-    background-image: linear-gradient(to bottom,
-            rgba(0, 12, 80, 0.651),
-            rgba(24, 5, 170, 0.616)),
+    background-image: linear-gradient(to right, #000529 1%, #002055 24%, #005eb583 67%, #0074d9c0 100%),
         url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
     background-size: cover;
     background-position: 0px;
+    background-attachment: fixed;
     color: white;
     min-height: 30rem;
 }
+
+
+
 
 /* content4 ================ */
 
@@ -466,11 +466,10 @@ nav {
 /* content6 ================ */
 
 .content6 {
-    background-image: linear-gradient(to bottom,
-            rgba(0, 12, 80, 0.641),
-            rgba(24, 5, 170, 0.737)),
+    background-image: linear-gradient(to right, #000529 1%, #002055 24%, #005eb583 67%, #0074d9c0 100%),
         url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/price-bg.jpg.webp");
     background-size: cover;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -503,6 +502,29 @@ nav {
 
 /* content6 ================ */
 
+
+/* content8 ================ */
+.content8 {
+    background-image: linear-gradient(to right, #000529 1%, #002055 24%, #005eb583 67%, #0074d9c0 100%),
+        url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
+    background-size: cover;
+    background-position: 0px;
+    background-attachment: fixed;
+    color: white;
+    min-height: 30rem;
+}
+
+.content8 .circle {
+    height: 10rem;
+    width: 10rem;
+    color: white;
+    background-color: #005db5;
+}
+
+/* content8 ================ */
+
+
+
 /* content9 ================ */
 .content9 .subtitle {
     max-width: 400px;
@@ -532,13 +554,12 @@ nav {
 /* content10 ================ */
 
 .content10 {
-    background-image: linear-gradient(to bottom,
-            rgba(0, 12, 80, 0.52),
-            rgba(24, 5, 170, 0.301)),
+    min-height: 30rem;
+    background-image: linear-gradient(to right, #000529 1%, #002055 24%, #005eb583 67%, #0074d9c0 100%),
         url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
     background-size: cover;
+    background-attachment: fixed;
     color: white;
-    min-height: 30rem;
 }
 
 .content10>* {
