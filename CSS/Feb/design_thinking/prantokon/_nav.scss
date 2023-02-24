@@ -1,0 +1,37 @@
+@import "./mixins";
+
+nav {
+    position: fixed;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+
+    .navbar {
+        color: white;
+
+        .route {
+            @include mq(1000px) {
+                display: none;
+            }
+        }
+    }
+
+    .download-btn {
+        height: 3rem;
+        width: 8rem;
+        border: 1px solid white;
+        border-radius: 1rem;
+
+        @include mq(1000px) {
+            display: none;
+        }
+    }
+
+    #menu {
+        display: none;
+
+        @include mq(1000px) {
+            display: block;
+        }
+    }
+}

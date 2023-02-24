@@ -1,0 +1,33 @@
+.content2 {
+    background-image: linear-gradient(to right, #000529 1%, #002055 24%, #005eb585 67%, #0074d9de 100%),
+        url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/feature-bg.jpg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+    .grid-wrapper {
+        display: grid;
+        padding-block: 4rem;
+        grid-template-columns: repeat(3, 1fr);
+
+        @include mq(850px) {
+            grid-template-columns: 1fr;
+
+        }
+
+        >div {
+            align-self: center;
+
+            @include mq(850px) {
+                margin: auto;
+
+            }
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            margin: auto;
+        }
+    }
+}

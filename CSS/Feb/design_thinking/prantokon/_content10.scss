@@ -1,0 +1,12 @@
+.content10 {
+    min-height: 30rem;
+    background-image: linear-gradient(to right, #000529 1%, #002055 24%, #005eb583 67%, #0074d9c0 100%),
+        url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+    >* {
+        max-width: 50rem;
+    }
+}

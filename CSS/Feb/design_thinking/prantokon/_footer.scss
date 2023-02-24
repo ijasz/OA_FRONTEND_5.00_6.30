@@ -1,0 +1,29 @@
+footer {
+    background: linear-gradient(to right, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%);
+    padding-block: 10rem;
+
+    input {
+        width: 100%;
+        padding-block: 1rem;
+        border-radius: 1rem;
+    }
+
+    .circle {
+        height: 6rem;
+        width: 6rem;
+        border: 2px solid white;
+        border-radius: 50%;
+
+        img {
+            max-width: 4rem;
+        }
+    }
+
+
+    .btn {
+        padding-block: 1rem;
+        padding-inline: 1rem;
+        border-radius: 1rem;
+        background-color: #004483;
+    }
+}

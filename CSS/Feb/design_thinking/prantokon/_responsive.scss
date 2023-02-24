@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-dark {
+    color: black;
+}
+
+.text-dark-light {
+    color: rgba(0, 0, 0, 0.736);
+}
+
+.m-auto {
+    margin-inline: auto;
+}
+
+.mx-1 {
+    margin-inline: 0.7rem;
+}
+
+.mx-2 {
+    margin-inline: 1rem;
+}
+
+.mx-3 {
+    margin-inline: 1.2rem;
+}
+
+.mx-4 {
+    margin-inline: 1.4rem;
+}
+
+.mx-5 {
+    margin-inline: 1.6rem;
+}
+
+.mx-6 {
+    margin-inline: 1.8rem;
+}
+
+/* --------- */
+
+.my-1 {
+    margin-block: 0.7rem;
+}
+
+.my-2 {
+    margin-block: 1rem;
+}
+
+.my-3 {
+    margin-block: 1.2rem;
+}
+
+.my-4 {
+    margin-block: 1.4rem;
+}
+
+.my-5 {
+    margin-block: 1.6rem;
+}
+
+.my-6 {
+    margin-block: 1.8rem;
+}
+
+.my-7 {
+    margin-block: 2rem;
+}
+
+.my-8 {
+    margin-block: 3rem;
+}
+
+.my-9 {
+    margin-block: 4rem;
+}
+
+.my-10 {
+    margin-block: 5rem;
+}
+
+/* -- */
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 1.2rem;
+}
+
+.p-3 {
+    padding: 1.4rem;
+}
+
+.p-4 {
+    padding: 1.6rem;
+}
+
+.p-5 {
+    padding: 1.8rem;
+}
+
+.p-6 {
+    padding: 2rem;
+}
+
+/* -- */
+
+.py-1 {
+    padding-block: 1rem;
+}
+
+.py-2 {
+    padding-block: 1.2rem;
+}
+
+.py-3 {
+    padding-block: 1.4rem;
+}
+
+.py-4 {
+    padding-block: 1.6rem;
+}
+
+.py-5 {
+    padding-block: 1.8rem;
+}
+
+.py-6 {
+    padding-block: 2rem;
+}
+
+/* -- */
+
+.px-1 {
+    padding-inline: 1rem;
+}
+
+.px-2 {
+    padding-inline: 1.2rem;
+}
+
+.px-3 {
+    padding-inline: 1.4rem;
+}
+
+.px-4 {
+    padding-inline: 1.6rem;
+}
+
+.px-5 {
+    padding-inline: 1.8rem;
+}
+
+.px-6 {
+    padding-inline: 2rem;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f1 {
+    font-size: 1rem;
+}
+
+.f2 {
+    font-size: 1.2rem;
+}
+
+.f3 {
+    font-size: 1.4rem;
+}
+
+.f4 {
+    font-size: 1.6rem;
+}
+
+.f5 {
+    font-size: 1.8rem;
+}
+
+.f6 {
+    font-size: 2rem;
+}
+
+.f7 {
+    font-size: 2.5rem;
+}
+
+.f8 {
+    font-size: 3rem;
+}
+
+.f9 {
+    font-size: 4rem;
+}
+
+.f10 {
+    font-size: 5rem;
+}
+
+.f11 {
+    font-size: 6rem;
+}
+
+.f12 {
+    font-size: 8rem;
+}
+
+.f13 {
+    font-size: 10rem;
+}
+
+.gap-1 {
+    gap: 3rem;
+}
+
+.gap-2 {
+    gap: 4rem;
+}
+
+.gap-3 {
+    gap: 5rem;
+}
+
+.gap-4 {
+    gap: 6rem;
+}
+
+.gap-5 {
+    gap: 7rem;
+}
+
+.gap-6 {
+    gap: 8rem;
+}
+
+.gap-7 {
+    gap: 9rem;
+}
+
+.gap-8 {
+    gap: 10rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-75 {
+    width: 75%;
+}

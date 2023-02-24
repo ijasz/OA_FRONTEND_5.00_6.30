@@ -1,0 +1,14 @@
+.content1 {
+    .card-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .card {
+            // max-width: 270px;
+            min-height: 200px;
+            border: 1px solid rgba(0, 0, 0, 0.182);
+            flex: 1;
+            flex-basis: 270px;
+        }
+    }
+}
