@@ -1,4 +1,5 @@
 .cover-image {
+    overflow: hidden;
     padding-top: 10rem;
     width: 100%;
     background-repeat: no-repeat;
@@ -13,7 +14,6 @@
 
         @include mq(800px) {
             grid-template-columns: 1fr;
-
         }
     }
 
@@ -23,7 +23,13 @@
     }
 
     img {
+        width: 100%;
         max-width: 37rem;
+
+        @include mq(800px) {
+
+            justify-self: end;
+        }
     }
 
     .btn {

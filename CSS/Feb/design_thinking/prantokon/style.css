@@ -196,6 +196,10 @@ html {
   display: flex;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;
@@ -354,6 +358,7 @@ nav #menu {
 }
 
 .cover-image {
+  overflow: hidden;
   padding-top: 10rem;
   width: 100%;
   background-repeat: no-repeat;
@@ -376,7 +381,13 @@ nav #menu {
   max-width: 48rem;
 }
 .cover-image img {
+  width: 100%;
   max-width: 37rem;
+}
+@media (max-width: 800px) {
+  .cover-image img {
+    justify-self: end;
+  }
 }
 .cover-image .btn {
   padding-inline: 2rem;
@@ -387,6 +398,9 @@ nav #menu {
   border: 2px solid rgba(255, 255, 255, 0.562);
 }
 
+.content1 {
+  overflow: hidden;
+}
 .content1 .card-wrapper {
   flex-wrap: wrap;
   justify-content: center;
@@ -399,6 +413,7 @@ nav #menu {
 }
 
 .content2 {
+  overflow: hidden;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5215686275) 67%, rgba(0, 116, 217, 0.8705882353) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/feature-bg.jpg.webp");
   background-size: cover;
   background-attachment: fixed;
@@ -428,6 +443,30 @@ nav #menu {
   margin: auto;
 }
 
+.content3 {
+  overflow: hidden;
+}
+.content3 .container:nth-of-type(1) {
+  flex: 1;
+}
+@media (max-width: 800px) {
+  .content3 .container:nth-of-type(1) {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+}
+.content3 .container:nth-of-type(2) {
+  flex: 1;
+}
+@media (max-width: 800px) {
+  .content3 .container:nth-of-type(2) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.content3 .container img {
+  max-width: 400px;
+}
 .content3 .readmore-btn {
   padding-block: 1rem;
   padding: inline 1.5rem;
@@ -438,6 +477,7 @@ nav #menu {
 }
 
 .content4 {
+  overflow: hidden;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5137254902) 67%, rgba(0, 116, 217, 0.7529411765) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
   background-size: cover;
   background-position: 0px;
@@ -446,6 +486,9 @@ nav #menu {
   min-height: 30rem;
 }
 
+.content5 {
+  overflow: hidden;
+}
 .content5 .flex-wrapper {
   max-width: 800px;
   width: 100%;
@@ -456,6 +499,7 @@ nav #menu {
 }
 
 .content6 {
+  overflow: hidden;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5137254902) 67%, rgba(0, 116, 217, 0.7529411765) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/price-bg.jpg.webp");
   background-size: cover;
   background-attachment: fixed;
@@ -464,9 +508,17 @@ nav #menu {
 .content6 .subtitle {
   max-width: 40rem;
 }
+.content6 .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .content6 .card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .content6 .card-wrapper .card {
-  width: 300px;
-  max-width: 300px;
   border: 1px solid rgba(0, 0, 0, 0.182);
 }
 .content6 .details > :not(p:nth-last-of-type(1)) {
@@ -485,12 +537,29 @@ nav #menu {
 }
 
 .content8 {
+  overflow: hidden;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5137254902) 67%, rgba(0, 116, 217, 0.7529411765) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
   background-size: cover;
   background-position: 0px;
   background-attachment: fixed;
   color: white;
   min-height: 30rem;
+}
+.content8 .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 950px) {
+  .content8 .grid-wrapper {
+    padding-block: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .content8 .grid-wrapper {
+    padding-block: 3rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .content8 .circle {
   height: 10rem;
@@ -499,16 +568,36 @@ nav #menu {
   background-color: #005db5;
 }
 
+.content9 {
+  overflow: hidden;
+}
 .content9 .subtitle {
   max-width: 400px;
   margin: auto;
 }
-.content9 .card-wrapper .card {
-  max-width: 270px;
+.content9 .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 950px) {
+  .content9 .grid-wrapper {
+    padding-block: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .content9 .grid-wrapper {
+    padding-block: 3rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.content9 .grid-wrapper .card {
+  max-width: 400px;
   border: 1px solid rgba(0, 0, 0, 0.182);
 }
 
 .content10 {
+  overflow: hidden;
   min-height: 30rem;
   background-image: linear-gradient(to right, #000529 1%, #002055 24%, rgba(0, 94, 181, 0.5137254902) 67%, rgba(0, 116, 217, 0.7529411765) 100%), url("https://preview.colorlib.com/theme/prantokon/prantokon/assets/img/video-overview.jpg.webp");
   background-size: cover;
@@ -519,17 +608,26 @@ nav #menu {
   max-width: 50rem;
 }
 
+.content11 {
+  overflow: hidden;
+}
 .content11 .subtitle {
   max-width: 450px;
   margin: auto;
 }
-
-.content11 .card-wrapper .card {
-  max-width: 270px;
-  border: 1px solid rgba(0, 0, 0, 0.182);
+.content11 .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 950px) {
+  .content11 .grid-wrapper {
+    padding-block: 3rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 footer {
+  overflow: hidden;
   background: linear-gradient(to right, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%);
   padding-block: 10rem;
 }
@@ -538,13 +636,23 @@ footer input {
   padding-block: 1rem;
   border-radius: 1rem;
 }
-footer .circle {
+footer .grid-icon {
+  gap: 1rem;
+}
+footer .grid-icon .circle {
   height: 6rem;
   width: 6rem;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 50%;
 }
-footer .circle img {
+@media (max-width: 450px) {
+  footer .grid-icon .circle {
+    font-size: 1rem;
+    height: 4rem;
+    width: 4rem;
+  }
+}
+footer .grid-icon .circle img {
   max-width: 4rem;
 }
 footer .btn {

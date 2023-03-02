@@ -1,9 +1,13 @@
-.content5 .flex-wrapper {
-    max-width: 800px;
-    width: 100%;
-    overflow-x: scroll;
+.content5 {
+    overflow: hidden;
 
-    img {
-        width: 30%;
+    .flex-wrapper {
+        max-width: 800px;
+        width: 100%;
+        overflow-x: scroll;
+
+        img {
+            width: 30%;
+        }
     }
 }

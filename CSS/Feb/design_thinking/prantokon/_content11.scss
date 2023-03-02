@@ -1,9 +1,18 @@
-.content11 .subtitle {
-    max-width: 450px;
-    margin: auto;
-}
+.content11 {
+    overflow: hidden;
 
-.content11 .card-wrapper .card {
-    max-width: 270px;
-    border: 1px solid rgba(0, 0, 0, 0.182);
+    .subtitle {
+        max-width: 450px;
+        margin: auto;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        @include mq(950px) {
+            padding-block: 3rem;
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
 }
