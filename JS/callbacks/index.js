@@ -4,7 +4,8 @@ const myNumbers = [4, 1, -20, -7, 5, 9, -6];
 
 
 // Remove negative numbers
-function checkNumber(numbers, callback) {
+function checkNumber
+    (numbers, callback) {
     const obj = {
         positive: [],
         negative: []
