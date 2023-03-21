@@ -2,24 +2,28 @@
 
 // let c = 0;
 
-function trigger(event) {
-  console.log(event.srcElement);
-  //   console.log("clicked", ++c);
-}
+// function trigger(event) {
+//   console.log(event.srcElement);
+//   //   console.log("clicked", ++c);
+// }
 
-const doc = document;
+// const doc = document;
 
-const btns = document.querySelectorAll("body > button");
+// const btns = document.querySelectorAll("body > button");
 
-for (const i of btns) {
-  i.addEventListener("click", trigger);
-}
+// for (const i of btns) {
+//   i.addEventListener("click", trigger);
+// }
 
-// const btns =
+// let a = () => {
+//   console.log(5 * 8);
+// };
+// a();
+// // const btns =
 
 // const obj1 = {
-//   f: "sharan",
-//   l: "eswar",
+//   f: "spider",
+//   l: "man",
 // };
 
 // const obj2 = {
@@ -35,8 +39,8 @@ for (const i of btns) {
 //   console.log("");
 // }
 
-// getFullname.call(obj1, "pondy");
-// getFullname.call(obj2, "chennai");
+// getFullname.call(obj1, "manhattan");
+// getFullname.call(obj2, "california");
 
 // call apply bind
 
