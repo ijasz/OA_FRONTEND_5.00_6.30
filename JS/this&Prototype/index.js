@@ -73,3 +73,38 @@
 // console.log(output1, "output1");
 // console.log(output2, "output2");
 // console.log(builtInMap, "builtInMap");
+
+// String.prototype.len = function () {
+//   let c = 0;
+//   for (const i of this) {
+//     c++;
+//   }
+//   return c;
+// };
+
+// console.log("sharan".len());
+
+// console.log(Boolean(!(String.prototype.lengt === 0)), String.prototype.lengt);
+
+// if (!(String.prototype.lengt === 0)) {
+//   String.prototype.len = function () {
+//     let c = 0;
+//     for (const i of this) {
+//       c++;
+//     }
+//     return c;
+//   };
+// }
+
+// console.log(Array.prototype.map);
+
+// if (!Array.prototype.myMap) {
+//   Array.prototype.myMap = function (callback) {
+//     const arr = [];
+//     for (let i = 0; i < this.length; i++) {
+//       arr.push(callback(this[i], i, this));
+//     }
+
+//     return arr;
+//   };
+// }
