@@ -38,3 +38,12 @@ function createEle() {
 
   console.log(newDiv);
 }
+let f = 0;
+function createElement2() {
+  const newDiv = doc.createElement("div");
+  newDiv.textContent = --f;
+  newDiv.classList.add("box", "center");
+  doc.body.appendChild(newDiv);
+
+  console.log(newDiv);
+}
