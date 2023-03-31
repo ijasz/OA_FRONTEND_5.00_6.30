@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Login</h1>
+      <p class="subtitle">welcome back {{names.0}}</p>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="{% static 'js/login.js' %}"></script>
+  </body>
+</html>
